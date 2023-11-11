@@ -11,6 +11,10 @@
 		DC4A31D52AEFDC6900EE47A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A31D42AEFDC6900EE47A6 /* ContentView.swift */; };
 		DC4A31D72AEFDC6B00EE47A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4A31D62AEFDC6B00EE47A6 /* Assets.xcassets */; };
 		DC4A31DA2AEFDC6B00EE47A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4A31D92AEFDC6B00EE47A6 /* Preview Assets.xcassets */; };
+		DCB2B47F2AFE64CD0055A25A /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB2B47E2AFE64CD0055A25A /* Shapes.swift */; };
+		DCB2B4812AFE65380055A25A /* SoloLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB2B4802AFE65380055A25A /* SoloLoginView.swift */; };
+		DCB5A4272AFBB076000A04D1 /* SoloSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5A4262AFBB076000A04D1 /* SoloSignupView.swift */; };
+		DCB5A4292AFBB0F1000A04D1 /* SoloWelcomScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5A4282AFBB0F1000A04D1 /* SoloWelcomScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		DC4A31D42AEFDC6900EE47A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC4A31D62AEFDC6B00EE47A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC4A31D92AEFDC6B00EE47A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCB2B47E2AFE64CD0055A25A /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		DCB2B4802AFE65380055A25A /* SoloLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloLoginView.swift; sourceTree = "<group>"; };
+		DCB5A4262AFBB076000A04D1 /* SoloSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloSignupView.swift; sourceTree = "<group>"; };
+		DCB5A4282AFBB0F1000A04D1 /* SoloWelcomScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloWelcomScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,9 @@
 		DC4A31D12AEFDC6900EE47A6 /* SOLO */ = {
 			isa = PBXGroup;
 			children = (
+				DCB2B47D2AFE64BA0055A25A /* Utility */,
+				DCB5A4252AFBB04D000A04D1 /* Views */,
 				DC4A31D22AEFDC6900EE47A6 /* SOLOApp.swift */,
-				DC4A31D42AEFDC6900EE47A6 /* ContentView.swift */,
 				DC4A31D62AEFDC6B00EE47A6 /* Assets.xcassets */,
 				DC4A31D82AEFDC6B00EE47A6 /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				DC4A31D92AEFDC6B00EE47A6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCB2B47D2AFE64BA0055A25A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DCB2B47E2AFE64CD0055A25A /* Shapes.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		DCB5A4252AFBB04D000A04D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC4A31D42AEFDC6900EE47A6 /* ContentView.swift */,
+				DCB5A4282AFBB0F1000A04D1 /* SoloWelcomScreenView.swift */,
+				DCB5A4262AFBB076000A04D1 /* SoloSignupView.swift */,
+				DCB2B4802AFE65380055A25A /* SoloLoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB5A4272AFBB076000A04D1 /* SoloSignupView.swift in Sources */,
 				DC4A31D52AEFDC6900EE47A6 /* ContentView.swift in Sources */,
+				DCB5A4292AFBB0F1000A04D1 /* SoloWelcomScreenView.swift in Sources */,
 				DC4A31D32AEFDC6900EE47A6 /* SOLOApp.swift in Sources */,
+				DCB2B47F2AFE64CD0055A25A /* Shapes.swift in Sources */,
+				DCB2B4812AFE65380055A25A /* SoloLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
