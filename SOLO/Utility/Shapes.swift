@@ -1,20 +1,20 @@
 //
-//  CircleView.swift
+//  Shapes.swift
 //  SOLO
 //
-//  Created by sakshi.j on 30/10/23.
+//  Created by sakshi.j on 10/11/23.
 //
 
 import SwiftUI
 
-struct CircleView: View {
+struct Shapes: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct CircleView_Previews: PreviewProvider {
+struct Shapes_Previews: PreviewProvider {
     static var previews: some View {
-        CircleView()
+        Shapes()
     }
 }
